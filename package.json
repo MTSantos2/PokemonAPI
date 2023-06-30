@@ -1,0 +1,19 @@
+{
+  "name": "pokemon-api",
+  "version": "1.0.0",
+  "description": "simple endpoint calls for access the pokemon API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha main.js",
+    "firstsPokemons": "node main/firstsPokemons.js",
+    "pokemonById": "node main/pokemonById.js",
+    "pokemonByName": "node main/pokemonByName.js"
+  },
+  "author": "Marcelo Santos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "twilio": "^4.11.1"
+  }
+}
